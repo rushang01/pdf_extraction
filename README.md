@@ -26,8 +26,11 @@ To install and run this project, follow these steps:
 To run the program, navigate to the project's root directory in your terminal and execute the following commands:
 
 pipenv install
+
 pipenv shell
+
 pipenv run python assignment0/main.py --incidents <url>
+
 Here, URL refers to the URL of the PDF.
 
 To execute the test cases, run the following command from the project's root directory:

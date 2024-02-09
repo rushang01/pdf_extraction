@@ -130,14 +130,10 @@ def status(db):
                       GROUP BY nature 
                       ORDER BY count DESC, nature;''')
     results = cursor.fetchall()
-    blank_count = 0
+    
     for nature, count in results:
-        if nature:
             print(f"{nature}|{count}")
-        else:
-            blank_count += count
-    if blank_count != 0:
-        print(f"|{blank_count}")
+      
     
 
 def main(url):

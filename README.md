@@ -25,15 +25,21 @@ To install and run this project, follow these steps:
 ## How to Use
 To run the program, navigate to the project's root directory in your terminal and execute the following commands:
 
+pip install pipenv
+
 pipenv install
+
 pipenv shell
-pipenv run python assignment0/main.py --incidents <url>
+
+pipenv run python assignment0/main.py --incidents url
+
 Here, URL refers to the URL of the PDF.
 
 To execute the test cases, run the following command from the project's root directory:
 pipenv run python -m pytest
 
-GIF
+![ezgif-1-15711b89f0](https://github.com/rushang01/cis6930sp24-assignment0/assets/65099777/ace4f945-177d-4ee7-8dda-35575f97da9c)
+
 
 ## Functions Description
 fetchincidents(url): Downloads a PDF from the given URL and saves it locally for processing. It returns the path to the saved PDF file.

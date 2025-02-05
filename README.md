@@ -1,2 +1,2 @@
-# cis6930sp24-assignment0
+# PDF Extraction Tool
 Please switch to the master branch.

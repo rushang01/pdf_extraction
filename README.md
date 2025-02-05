@@ -2,9 +2,9 @@
 ## Developer Information
 Name: Rushang Sunil Chiplunkar
 
-# Assignment Description 
+# Description 
 Objective:
-The primary goal of this assignment is to practice extracting and processing data from an online source, specifically focusing on incident report PDFs provided by the Norman, Oklahoma Police Department. The task involves downloading these PDFs, extracting relevant information, and then storing this data in a structured format using a SQLite database. This project allowed me to apply my knowledge of Python3, SQL, regular expressions, and Linux command-line tools in a practical scenario.
+The primary goal of this tool is to practice extracting and processing data from an online source, specifically focusing on incident report PDFs provided by the Norman, Oklahoma Police Department. The task involves downloading these PDFs, extracting relevant information, and then storing this data in a structured format using a SQLite database. This project allowed me to apply my knowledge of Python3, SQL, regular expressions, and Linux command-line tools in a practical scenario.
 
 Tools and Technologies Used:
 Python 3.8: The main programming language used for developing the application.
